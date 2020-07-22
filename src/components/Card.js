@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Card = ({name, username, email}) => {
-  const robo_avatar = `https://robohash.org/${name}?bgset=bg1&size=200x200`
+  const robo_avatar = `https://robohash.org/${name}?bgset=bg1`
   return (  
     <div className="bg-light-green dib br3 pa3 ma3 grow shadow-5">
       <h3>Robo Friend</h3>
