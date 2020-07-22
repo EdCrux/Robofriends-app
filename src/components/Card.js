@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({id, name, username, email}) => {
+const Card = ({name, username, email}) => {
   const robo_avatar = `https://robohash.org/${name}`
   return (  
     <div className="bg-light-green dib br3 pa3 ma3 grow shadow-5">
